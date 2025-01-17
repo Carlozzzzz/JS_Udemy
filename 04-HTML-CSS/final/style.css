@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* include padding  and borders into the width*/
+  /* ex: if width is 100px , the added padding and borders will add up here */
+}
+body {
+  background-color: rgb(255, 247, 201);
+  font-family: Arial;
+  font-size: 20px;
+  padding: 75px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.first {
+  color: red;
+}
+
+#formFesbook {
+  background-color: yellow;
+  border: 5px solid #444;
+  width: 400px;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+a {
+  background-color: yellowgreen;
+}
+
+#formFesbook h2 {
+  text-align: center;
+  color: olivedrab;
+  margin-bottom: 5px;
+}
+
+#course-img {
+  width: 200px;
+}
